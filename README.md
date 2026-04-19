@@ -26,11 +26,13 @@ Python needs a specific library to interact with your Windows clipboard.
 III. DOWNLOADING THE SCRIPT FILE
 
 1. If you're not already on GitHub, browse to https://github.com/dhilliker/cwstringformatter to access the CW String Formatter repository.
+2. Select Releases and then Latest to download the file.
 
 IV. OPERATING THE FORMATTER
 
-1. Copy the text you wish to transmit (Ctrl+C).
-2. Double-click the "cw_format.py" file on your desktop.
+1. Select and copy the text you wish to transmit (Ctrl+C).
+2. Press the Start menu, type "cmd" and press enter to open a command-line window. Other similar tools, such as PowerShell, may be used and administrator access is not recommended or required.
+2. Type "python cwstringformatter.py" and press enter to run the script.
 3. If you have already copied the text, simply press Enter. The script will grab the text from your clipboard automatically.
 4. The script will format the text into 24-character segments, apply the "RI:KY " and "KY " prefixes, and copy the result back to your clipboard.
-5. Open your CAT control software (like HRD or a serial terminal) and paste (Ctrl+V) the string into the command window to send it to your TS-590SG.
+5. Open your logging or other software that relies on CAT control (like the Amateur Contact Log by N3FJP) and paste (Ctrl+V) the string into the command window to send it to your TS-590SG.
